@@ -12,8 +12,8 @@ public class DemoIncrement {
         System.out.println(", y: " + y);
 
         // Replace the xxxxx in the following with the correct term
-        System.out.println("i++ means xxxxx-increment");
-        System.out.println("++i means xxxxx-increment");
+        System.out.println("i++ means post-increment");
+        System.out.println("++i means pre-increment");
     }
 }
 
