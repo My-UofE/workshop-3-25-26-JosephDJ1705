@@ -3,21 +3,22 @@ public class NumbersInSpanish {
        // read the first argument passed to the program
        int number = Integer.parseInt(args[0]); 
 
+
        if (number == 1) {
-                System.out.println("uno")
+                System.out.println("uno");
        } else if (number == 2) {
-                System.out.println("dos")
+                System.out.println("dos");
        } else if (number == 3) {
-                System.out.println("tres")
+                System.out.println("tres");
        } else if (number == 4) {
-                System.out.println("cuatro")
+                System.out.println("cuatro");
        } else if (number == 5) {
-                System.out.println("cinco")
+                System.out.println("cinco");
        } else {
-                System.out.println("Sorry I do not know that!")
+                System.out.println("Sorry I do not know that!");
        }
  
-       // delete the line below and replace with your code
-       System.out.println(number);
+       
+       
     }
  }
