@@ -4,18 +4,18 @@ public class NumbersInSpanish {
        int number = Integer.parseInt(args[0]); 
 
 
-       if (number == 1) {
-                System.out.println("uno");
-       } else if (number == 2) {
-                System.out.println("dos");
-       } else if (number == 3) {
-                System.out.println("tres");
-       } else if (number == 4) {
-                System.out.println("cuatro");
-       } else if (number == 5) {
-                System.out.println("cinco");
-       } else {
-                System.out.println("Sorry I do not know that!");
+       switch(number) {
+            case 1:
+                System.out.println("Uno"); break;
+            case 2:
+                System.out.println("Dos"); break;
+            case 3:
+                System.out.println("Tres"); break;
+            case 4:
+                System.out.println("Cuatro"); break;
+            case 5:
+                System.out.println("Cinco"); break;
+            default: System.out.println("Sorry I do not know that!");
        }
  
        
